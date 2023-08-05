@@ -1,0 +1,85 @@
+html,body,.wrapper{
+  height:100%;
+  width: 100%;
+  padding:0;
+  margin:0 auto;
+}.wrapper{
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/45816/IMG_00000159_hdr.jpg');
+  background-size: cover;
+  background-attachment: fixed; 
+  position: absolute;
+}
+.weather{
+  position: relative;
+  height: 275px;
+  width: 450px;
+background: #7abcff; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+  border-radius: 10px;
+  top:calc(50% - 125px);
+  left: calc(50% - 200px);
+  border: 3px solid #FFFFFF;
+  padding: 10px 20px;
+}
+.city h1{
+  padding: 0;
+  margin: 5px 0px;
+  text-align: center;
+  font-size: 11pt;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+.icon{
+  width: 40%;
+  float: left;
+  padding: 10px;
+  color: gold;
+  margin: 10px 0;
+  position: relative;
+}
+.icon .bi-cloud-sun{
+  font-size: 88pt;
+  position: absolute;
+ text-shadow: 0 0 20px #fff;
+}
+.icon .bi-cloud-drizzle {
+  font-size: 88pt;
+  position: absolute;
+  text-shadow: 0 0 20px #fff;
+}
+.icon .bi-cloud-fog {
+  font-size: 88pt;
+  position: absolute;
+  text-shadow: 0 0 20px #fff;
+}
+.clearfix{
+  clear:both;
+  width: 100%;
+  border-top: 3px solid #FFFFFF;
+
+}
+.temp{
+  width: 60%;
+  float: left;
+  padding: 10px;
+  color: #FFFFFF;
+  margin: 5px 0;
+}
+.current{
+  font-size: 68pt;
+  text-align: center;
+  font-weight: lighter;
+}
+.himidity{
+  text-align:right;
+}
